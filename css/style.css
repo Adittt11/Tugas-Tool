@@ -1,0 +1,50 @@
+body {
+  background-color: #f4f4f4;
+  font-family: "Arial", sans-serif;
+}
+
+.navbar {
+  background-color: #3998fd;
+  color: #ffffff;
+}
+
+.banner {
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/pro.jpg");
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-title {
+  color: #062749;
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #336aa4;
+  border-color: #164d88;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
